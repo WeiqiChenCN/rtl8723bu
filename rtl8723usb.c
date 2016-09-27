@@ -1,6 +1,6 @@
 
 #include "rtl_common.h"
-
+#include "rtl8723usb.h"
 
 #include <linux/usb.h>
 #include <linux/mod_devicetable.h>
@@ -16,7 +16,7 @@ struct usb_device_id rtl_usb_id_table[] = {
 
 };
 
-MODULE_AUTHOR(DRV_PROJECT);
+MODULE_AUTHOR(AUTHOR);
 MODULE_VERSION("0.0.0");
 MODULE_DESCRIPTION("Realtek RTL8723 USB Wireless LAN driver.");
 MODULE_SUPPORTED_DEVICE("Realtek RTL8723 USB chipset based cards");

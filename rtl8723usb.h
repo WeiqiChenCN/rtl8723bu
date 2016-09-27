@@ -21,6 +21,6 @@
 
 
 #define FIRMWARE_RTL8723	"rtl8723bu_ap_wowlan.bin"
-
+#define AUTHOR 				"Weiqi Chen"
 
 #endif//RTL8723USB_H

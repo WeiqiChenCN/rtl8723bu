@@ -37,7 +37,7 @@ endif
 ifneq ($(KERNELRELEASE),)
 
 
-$(MODULE_NAME)-y += usb.o rtl8723.o mac80211.o
+$(MODULE_NAME)-y +=  mac80211.o  rtl8723.o  rtl8723usb.o
 
 
 obj-$(CONFIG_RTL8723BU) := $(MODULE_NAME).o
